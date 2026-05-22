@@ -41,7 +41,7 @@ const canvas = document.getElementById("c");
         ctx.fillText(TEXT, x, y);
         }
 
-        angle += 0.02;
+        angle += 0.01;
         requestAnimationFrame(draw);
         }
 
